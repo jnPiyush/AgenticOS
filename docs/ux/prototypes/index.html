@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed - PawConnect</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-paw"></i> PawConnect
+        </div>
+        <div class="header-actions">
+            <button class="btn-outline" aria-label="Notifications"><i class="fa-regular fa-bell"></i></button>
+            <button class="btn-outline" aria-label="Messages"><i class="fa-regular fa-paper-plane"></i></button>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Stories -->
+        <section class="card" aria-label="Stories">
+            <div class="flex gap-2" style="overflow-x: auto; padding-bottom: 5px;">
+                <div style="text-align: center;">
+                    <div class="avatar" style="border: 2px solid var(--primary-color);"></div>
+                    <small>Add Story</small>
+                </div>
+                <div style="text-align: center;">
+                    <div class="avatar"></div>
+                    <small>Bella</small>
+                </div>
+                <div style="text-align: center;">
+                    <div class="avatar"></div>
+                    <small>Max</small>
+                </div>
+                <div style="text-align: center;">
+                    <div class="avatar"></div>
+                    <small>Cooper</small>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Post Input -->
+        <section class="card flex gap-2">
+            <div class="avatar"></div>
+            <input type="text" placeholder="What is your dog up to?" style="width: 100%; border: 1px solid #ddd; border-radius: 20px; padding: 0.5rem;">
+        </section>
+
+        <!-- Post 1 -->
+        <article class="card">
+            <div class="post-header">
+                <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=100&q=80" alt="Golden Retriever" class="avatar">
+                <div>
+                    <strong>Buddy the Golden</strong>
+                    <div class="text-muted">Seattle, WA • 2h ago</div>
+                </div>
+            </div>
+            <p>Had the best time at Marymoor Park today! The water was freezing but so worth it. 🎾🌊 #GoldenRetriever #DogPark</p>
+            <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=800&q=80" alt="Golden retriever playing in water" class="post-image">
+            <div class="post-actions">
+                <button class="btn-outline" style="border:none"><i class="fa-regular fa-heart"></i> 24</button>
+                <button class="btn-outline" style="border:none"><i class="fa-regular fa-comment"></i> 5</button>
+                <button class="btn-outline" style="border:none"><i class="fa-regular fa-share-from-square"></i></button>
+            </div>
+        </article>
+
+        <!-- Post 2 -->
+        <article class="card">
+            <div class="post-header">
+                <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=100&q=80" alt="French Bulldog" class="avatar">
+                <div>
+                    <strong>Luna the Frenchie</strong>
+                    <div class="text-muted">Bellevue, WA • 4h ago</div>
+                </div>
+            </div>
+            <p>Looking for a playdate this weekend! Anyone free Saturday morning? 🐾</p>
+            <div class="post-actions">
+                <button class="btn-outline" style="border:none"><i class="fa-regular fa-heart"></i> 12</button>
+                <button class="btn-outline" style="border:none"><i class="fa-regular fa-comment"></i> 8</button>
+            </div>
+        </article>
+    </main>
+
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item active">
+            <i class="fa-solid fa-house nav-icon"></i>
+            <span class="nav-label">Feed</span>
+        </a>
+        <a href="matching.html" class="nav-item">
+            <i class="fa-solid fa-wand-magic-sparkles nav-icon"></i>
+            <span class="nav-label">Match</span>
+        </a>
+        <a href="events.html" class="nav-item">
+            <i class="fa-regular fa-calendar nav-icon"></i>
+            <span class="nav-label">Events</span>
+        </a>
+        <a href="services.html" class="nav-item">
+            <i class="fa-solid fa-store nav-icon"></i>
+            <span class="nav-label">Services</span>
+        </a>
+        <a href="profile.html" class="nav-item">
+            <i class="fa-regular fa-user nav-icon"></i>
+            <span class="nav-label">Profile</span>
+        </a>
+    </nav>
+</body>
+</html>

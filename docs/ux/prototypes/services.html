@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - PawConnect</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-paw"></i> Services
+        </div>
+        <div class="flex gap-2">
+            <button class="btn-outline">Map</button>
+            <button class="btn-outline">Filter</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Categories -->
+        <div class="flex gap-2" style="overflow-x: auto; padding-bottom: 1rem; margin-bottom: 1rem;">
+            <button class="btn">All</button>
+            <button class="btn btn-secondary" style="background:var(--gray-200); color: var(--text-color);">Grooming</button>
+            <button class="btn btn-secondary" style="background:var(--gray-200); color: var(--text-color);">Training</button>
+            <button class="btn btn-secondary" style="background:var(--gray-200); color: var(--text-color);">Vets</button>
+            <button class="btn btn-secondary" style="background:var(--gray-200); color: var(--text-color);">Boarding</button>
+        </div>
+
+        <!-- Service List -->
+        <div class="grid">
+            <!-- Service 1 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=800&q=80" alt="Dog Groooming" style="width: 100%; height: 150px; object-fit: cover; border-radius: var(--radius);">
+                <div class="flex justify-between items-center" style="margin-top: 0.5rem;">
+                    <h3>Paws & Suds Grooming</h3>
+                    <div class="badge"><i class="fa-solid fa-star"></i> 4.9 (128)</div>
+                </div>
+                <p class="text-muted"><i class="fa-solid fa-location-dot"></i> 0.5 miles • $$</p>
+                <div class="flex gap-2" style="margin-top: 0.5rem;">
+                    <span class="badge" style="background: var(--gray-200);">Mobile Grooming</span>
+                    <span class="badge" style="background: var(--gray-200);">Spa</span>
+                </div>
+                <button class="btn" style="width: 100%; margin-top: 1rem;">Book Now</button>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1548625987-a82dd51e605d?auto=format&fit=crop&w=800&q=80" alt="Dog Training" style="width: 100%; height: 150px; object-fit: cover; border-radius: var(--radius);">
+                <div class="flex justify-between items-center" style="margin-top: 0.5rem;">
+                    <h3>Elite K9 Training</h3>
+                    <div class="badge"><i class="fa-solid fa-star"></i> 4.8 (85)</div>
+                </div>
+                <p class="text-muted"><i class="fa-solid fa-location-dot"></i> 3.2 miles • $$$</p>
+                <div class="flex gap-2" style="margin-top: 0.5rem;">
+                    <span class="badge" style="background: var(--gray-200);">Obedience</span>
+                    <span class="badge" style="background: var(--gray-200);">Puppy Class</span>
+                </div>
+                <button class="btn" style="width: 100%; margin-top: 1rem;">Book Now</button>
+            </div>
+        </div>
+
+    </main>
+
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <i class="fa-solid fa-house nav-icon"></i>
+            <span class="nav-label">Feed</span>
+        </a>
+        <a href="matching.html" class="nav-item">
+            <i class="fa-solid fa-wand-magic-sparkles nav-icon"></i>
+            <span class="nav-label">Match</span>
+        </a>
+        <a href="events.html" class="nav-item">
+            <i class="fa-regular fa-calendar nav-icon"></i>
+            <span class="nav-label">Events</span>
+        </a>
+        <a href="services.html" class="nav-item active">
+            <i class="fa-solid fa-store nav-icon"></i>
+            <span class="nav-label">Services</span>
+        </a>
+        <a href="profile.html" class="nav-item">
+            <i class="fa-regular fa-user nav-icon"></i>
+            <span class="nav-label">Profile</span>
+        </a>
+    </nav>
+</body>
+</html>

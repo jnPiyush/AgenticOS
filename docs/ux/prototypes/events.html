@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - PawConnect</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-paw"></i> Events
+        </div>
+        <button class="btn">Create</button>
+    </header>
+
+    <main class="container">
+        
+        <!-- Featured Event -->
+        <h3>Featured This Weekend</h3>
+        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=800&q=80'); background-size: cover; color: white;">
+            <div style="padding: 2rem 0;">
+                <h2>City Park Dog Meetup</h2>
+                <p><i class="fa-regular fa-clock"></i> Sat, Feb 24 • 10:00 AM</p>
+                <p><i class="fa-solid fa-location-dot"></i> Central Park, Dog Run</p>
+                <div style="margin-top: 1rem;">
+                    <button class="btn">RSVP (24 Going)</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Upcoming List -->
+        <h3>Upcoming</h3>
+        
+        <div class="card flex gap-2">
+            <div style="background: var(--gray-200); padding: 0.5rem; border-radius: 8px; text-align: center; min-width: 60px;">
+                <div style="font-weight: bold; color: var(--primary-color);">FEB</div>
+                <div style="font-size: 1.5rem; font-weight: bold;">25</div>
+            </div>
+            <div style="flex-grow: 1;">
+                <h4>Puppy Socialization Hour</h4>
+                <p class="text-muted">High Tails Training Center</p>
+                <div class="flex gap-2 items-center" style="margin-top: 0.5rem;">
+                    <div class="avatar" style="width: 24px; height: 24px;"></div>
+                    <small>Hosted by Sarah</small>
+                </div>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <i class="fa-solid fa-chevron-right text-muted"></i>
+            </div>
+        </div>
+
+        <div class="card flex gap-2">
+            <div style="background: var(--gray-200); padding: 0.5rem; border-radius: 8px; text-align: center; min-width: 60px;">
+                <div style="font-weight: bold; color: var(--primary-color);">MAR</div>
+                <div style="font-size: 1.5rem; font-weight: bold;">02</div>
+            </div>
+            <div style="flex-grow: 1;">
+                <h4>Charity Walk for Shelters</h4>
+                <p class="text-muted">Downtown Plaza</p>
+                <div class="flex gap-2 items-center" style="margin-top: 0.5rem;">
+                    <div class="avatar" style="width: 24px; height: 24px;"></div>
+                    <small>Hosted by City Paws</small>
+                </div>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <i class="fa-solid fa-chevron-right text-muted"></i>
+            </div>
+        </div>
+
+    </main>
+
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <i class="fa-solid fa-house nav-icon"></i>
+            <span class="nav-label">Feed</span>
+        </a>
+        <a href="matching.html" class="nav-item">
+            <i class="fa-solid fa-wand-magic-sparkles nav-icon"></i>
+            <span class="nav-label">Match</span>
+        </a>
+        <a href="events.html" class="nav-item active">
+            <i class="fa-regular fa-calendar nav-icon"></i>
+            <span class="nav-label">Events</span>
+        </a>
+        <a href="services.html" class="nav-item">
+            <i class="fa-solid fa-store nav-icon"></i>
+            <span class="nav-label">Services</span>
+        </a>
+        <a href="profile.html" class="nav-item">
+            <i class="fa-regular fa-user nav-icon"></i>
+            <span class="nav-label">Profile</span>
+        </a>
+    </nav>
+</body>
+</html>
